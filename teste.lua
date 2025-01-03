@@ -818,7 +818,7 @@ local function CreateWindow(theme)
     local windowSize
 
     if platform == "Mobile" then
-        windowSize = UDim2.new(0, 400, 0, 400) -- Taille réduite pour mobile
+        windowSize = UDim2.new(0, 580, 0, 300) -- Taille réduite pour mobile
         print("Plateforme détectée : Mobile. Taille réduite.")
     else
         windowSize = UDim2.new(0, 580, 0, 460) -- Taille normale pour PC
